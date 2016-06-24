@@ -1,4 +1,5 @@
 d:
-cd gitrepo\Test
-newman -c InnSupport_ImplementationAPI.json -e innSupport_implementationAPI_Environment.json -E innSupport_implementationAPI_Environment.json -H Output
+cd gitrepo
+cd Test
+newman -c postman_test_implementationApi.json -e postman_environmentVariable_implementationApi.json -E postman_environmentVariable_implementationApi.json -H Output
 
